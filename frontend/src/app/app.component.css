@@ -1,0 +1,33 @@
+/* Ensure the body and html take full height */
+html, body {
+   height: 100%;
+   margin: 0;
+ }
+
+ /* Make the app-root take full height */
+ app-root {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+ }
+
+ /* Make the file upload container take full height */
+ .full-page-container {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+ }
+
+ p-fileUpload {
+   width: 100%;
+   max-width: 600px; /* Adjust as needed */
+ }
+
+ p-button {
+   width: 100%;
+   max-width: 200px; /* Adjust as needed */
+   margin-top: 20px;
+ }
